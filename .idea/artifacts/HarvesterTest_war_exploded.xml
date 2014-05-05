@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HarvesterTest:war exploded">
+    <output-path>$PROJECT_DIR$/target/HarvesterTest</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HarvesterTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HarvesterTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:cors-filter:1.7.1" />
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:java-property-utils:1.9" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-jackson-provider:2.3.5.Final" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.9" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
