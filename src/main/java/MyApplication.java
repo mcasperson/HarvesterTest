@@ -1,7 +1,7 @@
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/root-path")
+@ApplicationPath("/")
 public class MyApplication extends Application
 {
 }
